@@ -1,0 +1,80 @@
+.nav{
+    background-color: #48e;
+    height: 50px;
+}
+.nav__responsive__ul__button{
+    display: none;
+}
+.nav__ul{
+    text-align: center;
+}
+
+.nav__ul li{
+    margin-top: 13px;
+    padding-left: 13px;
+    color: #fff;
+}
+.nav__ul-li:hover{
+    color: #aaa;
+}
+.nav__ul-li:hover > a{
+    color: #aaa;
+}
+.nav__ul a{
+    color: #fff;
+    padding-left: 13px;
+    text-decoration: none;
+}
+
+.nav__responsive{
+    opacity: 0;
+}
+
+@media only screen and (max-width: 440px) {
+    body{
+        background-color: #45e;
+    }
+    .nav{
+        display: none;
+    }
+    .nav__responsive__button{
+        font-size: 45px;
+        float: right;
+    }
+    .nav__responsive-container:hover > .nav__responsive__ul{
+        top:240px;
+
+    }
+    .nav__responsive__ul{
+        position: relative;
+        top: -800px;
+        transition: all 1s;
+    }
+    .nav__responsive{
+        opacity: 1;
+        background-color: #48e;
+        height: 50px;
+        
+    }
+    .nav__responsive__ul li{
+        text-align: center;
+        color: #fff;
+        display: block;
+        padding: 30px;
+        font-size: 40px;
+        
+        
+    }
+
+    .nav__responsive__ul a{
+        text-decoration: none;
+        color: #fff;
+
+        
+    }
+    .estilo{
+        height: 873px;
+        background-color: #45e;
+        z-index: 0;
+    }
+}

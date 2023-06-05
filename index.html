@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Es una página para iniciar sesión en la pagina de youtube">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet"  type = "text/css" href="estilo.css">
+    <link rel="stylesheet"  href="normalize.css">
+    <title>Iniciar sesión</title>
+    <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+    <header>
+        <nav class = "nav">
+            <ul class = "nav__ul">
+                <li class = "nav__li"><i class="fas fa-home"></i><a href="formulario.html">Segundo Inicio sesión</a></li>
+                <li class = "nav__li"><i class="fas fa-user-friends"></i><a href="Galeria.html">Galeria</a></li>
+                <li class = "nav__li"><i class="fas fa-dollar-sign"></i><a href="prueba.html">Menu para mobile</a></li>
+                <li class = "nav__li"><i class="fas fa-dollar-sign"></i><a href="emojianim.html">Animacion</a></li>
+            </ul>
+            
+        </nav>
+        <nav class = "nav-reponsive">
+            <ul class = "nav__responsive-ul">
+                <div class = "nav__responsive-button"><i class = "fas fa-bars"></i></div>
+                <div class="nav__li-container">
+                    <li class = "nav__responsive-li"><i class="fas fa-home"></i><a href="formulario.html">Segundo Inicio sesión</a></li>
+                    <li class = "nav__responsive-li"><i class="fas fa-user-friends"></i><a href="Galeria.html">Galeria</a></li>
+                    <li class = "nav__responsive-li"><i class="fas fa-dollar-sign"></i><a href="prueba.html">Menu para mobile</a></li>
+                    <li class = "nav__responsive-li"><i class="fas fa-dollar-sign"></i><a href="emojianim.html">Animacion</a></li>
+                </div>
+        </ul>
+        </nav>
+        
+        
+    </header>
+    
+    <form action="https://www.google.es/" class = "form ">       
+            <section class = "ad">
+                <div class = "caja">
+                    <legend class = "inicio">Inicio sesión</legend> 
+            <label >
+                <p class = "Nombre">Nombre de usuario</p>
+                <input type="text" class = "nombreinput">
+    
+            </label>
+            <label >
+                <p class = "Email">Email</p>
+                <input type="text" required = "" class = "inputEmail">
+            </label>
+            <label>
+                <span class = "Contraseña">Contraseña</span>
+                <input type="password" required="" class = "contrainput">
+            </label>
+            <label >
+                <p class = "edad">Edad que tienes</p>
+                <input type="number" required = "" class = "inputedad">
+            </label>
+            <br>
+            <label >
+                <select class = "selector">
+                    <option value="1">Premium</option>
+                    <option value="2">VIP</option>
+                    <option value="3">Normal</option>
+                </select>
+            </label>
+        <button type = "submit" class = "button" style="color: red">Enviar datos</button>
+                </div>
+            
+        </section>
+    </form>
+</body>
+</html>

@@ -1,0 +1,199 @@
+
+
+.nav__responsive{
+    display: flex !important;
+    margin: auto;
+}
+.nav__responsive-button{
+    color: #fff;
+}
+.ad{
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    display:flex;
+    margin: auto;
+    width: 550px;
+    height: 600px;
+    border-radius: 90px;
+    box-shadow: 20px 30px 90px 0 black;
+}
+body{
+    background-image: url(fondo.jpg);
+}
+.nombreinput{
+    border-radius: 56px;
+    position: relative;
+    top: 46px;
+    left: 60px;
+    width: 220px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    height: 30px;
+}
+.Nombre{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 69px;
+    top: 40px;
+    z-index: 1;
+}
+.edad{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    bottom: 90px;
+    left: 310px;
+}
+.inputedad{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 65px;
+    border-style: solid;
+    position: relative;
+    left: 300px;
+    width: 220px;
+    height: 30px;
+    bottom: 87px;
+}
+.contrainput{
+    border-radius: 56px;
+    border-style: solid;
+    width: 450px;
+    height: 30px;
+    position: relative;
+    top: 100px;
+    right: 40px;
+}
+.Contraseña{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    top: 70px;
+    left: 70px;
+
+}
+.inputEmail{
+    border-radius: 56px;
+    border-style: solid;
+    height: 30px;
+    width: 459px;
+    position: relative;
+    bottom: 7px;
+    top: 60px;
+    left: 56px;
+}
+.Email{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 52px;
+    left: 70px;
+}
+.inicio{
+    position: relative;
+    left: 165px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 34px;
+    text-shadow: 20px 30px 90px black;
+
+}
+.button{
+    border-radius: 56px;
+    border-style: solid;
+    height: 30px;
+    position: relative;
+    top: 100px;
+    left: 105px;
+    
+}
+
+.caja{
+    position: relative;
+    top: 100px;
+    z-index: 1;
+}
+.selector{
+    border-radius: 56px;
+    height: 30px;
+    position:relative;
+    top: 56px;
+    left: 200px;
+    
+    
+}
+.nav__responsive-ul{
+    opacity: 0;
+}
+.nav{
+    background-color: none;
+    height: 1px;
+    text-align: center;
+    margin-top: 10px;
+}
+.nav__li{
+    display: inline;
+    padding: 9px;
+    color: #fff;
+
+}
+.nav__li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+.nav__li:hover > a {
+    color: #aaa;
+}
+.nav__li:hover > i {
+    color: #aaa;
+}
+.nav__li i{
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 550px) {
+
+    .form{
+        display: none;
+    }
+    .nav{
+       display: none; 
+
+    }
+    .nav__responsive-ul{
+        opacity: 1;
+
+    }
+    .nav__li-container{
+        position: relative;
+        top: -800px;
+        transition: all 1s;
+    }
+    .nav__responsive-button{
+        float: right;
+        font-size: 50px;
+        z-index: 1;
+    }
+    .nav__responsive-li{
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+        padding: 30px;
+    }
+    .nav__responsive-li a{
+        color: #fff;
+        text-decoration: none;
+        margin: 6px;
+    }
+    .nav__responsive-ul:hover > .nav__li-container{
+            top: 45px;
+
+
+    }
+
+    }
+
